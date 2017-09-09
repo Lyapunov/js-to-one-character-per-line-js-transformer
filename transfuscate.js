@@ -3,7 +3,7 @@ var args = process.argv.slice(2);
 
 if ( args.length != 1 ) {
    console.log("USAGE:");
-   console.log("   ./transfuscate.js '[javascript code, no tabs, no carriage returns, just ascii chars between 32-126]'");
+   console.log("   ./transfuscate.js '[javascript code, no tabs, no carriage returns, no backticks, other ascii chars between 32-126]'");
    console.log();
    console.log("EXAMPLE:");
    console.log("   ./transfuscate.js 'console.log(\"Hello world!\");'");

@@ -15,24 +15,24 @@ Examples for the command line and how the result looks like.
 transfuscate.js 'console.log("Hello world!");'
 ```
 
-![hello_world.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/examples/hello_world.js)
+![hello_world.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/blob/master/examples/hello_world.js)
 
 ```
 transfuscate.js 'console.log(global);'
 ```
-![printing_out_global.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/examples/printing_out_global.js)
+![printing_out_global.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/blob/master/examples/printing_out_global.js)
 
 ```
 transfuscate.js 'x = 5; y = 3;console.log("The result is", x + y);'
 ```
 
-![adding_two_numbers.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/examples/adding_two_numbers.js)
+![adding_two_numbers.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/blob/master/examples/adding_two_numbers.js)
 
 ```
 transfuscate.js 'x=1;y=1;while(y < 10000){z=y;y=x+y;x=z;console.log(x)};'
 ```
 
-![fibonacci.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/examples/fibonacci.js)
+![fibonacci.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/blob/master/examples/fibonacci.js)
 
 Node should be able to run the output, e.g. try
 

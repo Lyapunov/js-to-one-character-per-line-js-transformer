@@ -3,9 +3,11 @@ Transforming normal javascript code into fully-functional and executable one-cha
 
 ## Introduction
 
-It is a short prototype to prove all program can be written in javascript using at most one character per line. Not all programming languages has this flexibility. Maybe it is an argument for the superiority of Javascript. Maybe not.
+The inspiration of this repo came from https://www.codewars.com/kata/multi-line-task-hello-world/train/javascript. After I solved that puzzle, I wanted to go a further to see how general it could be.
 
-This version is far from perfection and safetiness. You'll notice it pollutes **global** with many pre-defined variables, which may distrub the target code. It also should not throw errors for certain white spaces and carriage returns, it could transform them into spaces and colons. It would not be very hard to extend the eval portion with some cleanup code and putting an input purifier to the start of the program, which would lead to new problems in turn and so on.
+Here is a short prototype to prove all program can be written in javascript using at most one character per line. Not all programming languages has this flexibility. Maybe it is an argument for the superiority of Javascript. Maybe not.
+
+This version is far from perfection and safetiness. You'll notice it pollutes **global** with many pre-defined variables, which may distrub the target code. It also should not throw errors for certain white spaces and carriage returns, and also for the backtick symbol. It could transform them into spaces and colons. It would not be very hard to extend the evaluation portion with some cleanup code and putting an input purifier to the start of the program, which would lead to new problems in turn and so on.
 
 ## Examples
 

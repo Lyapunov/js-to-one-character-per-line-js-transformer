@@ -22,3 +22,6 @@ Examples for the command line and how the result looks like.
 
 > **transfuscate.js 'x=1;y=1;while(y < 10000){z=y;y=x+y;x=z;console.log(x)};'**
 ![fibonacci.js](https://github.com/Lyapunov/js-to-one-character-per-line-js-transformer/examples/fibonacci.js)
+
+Node should be able to run the output, e.g. try
+> **node fibonacci.js**
